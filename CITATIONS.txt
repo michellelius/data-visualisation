@@ -1,0 +1,5 @@
+References
+M. Bostock, "Observable," Observable, Jul. 14, 2023. https://observablehq.com/@d3/bivariate-choropleth (accessed Oct. 21, 2024).
+D3, "Observable," Observable, Jul. 04, 2023. https://observablehq.com/@d3/world-choropleth/2 (accessed Oct. 21, 2024).
+"Data," www.who.int, 2024. https://www.who.int/data/inequality-monitor/data
+

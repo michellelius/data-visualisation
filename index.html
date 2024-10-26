@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Income and Labour Rate Bivarate Choropleth</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: #737373;
+    }
+    p {
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    a {
+      display: block;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+      margin: 1px auto;
+      width: fit-content;
+    }
+  </style>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <script src="https://d3js.org/topojson.v2.min.js"></script>
+  <script type = "module" src="source/main.js"></script>
+  <!-- <script src="unicef.js"></script> -->
+</head>
+
+<body>
+  <p>Income vs. Female Labour Rate in Rural Areas</p>
+  <a href="https://www.canva.com/design/DAGUKmlHBbA/lK7ocOgEr9-OxK-T2uW9_g/edit?utm_content=DAGUKmlHBbA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+    UML Diagram
+  </a>
+  <div id="map"></div>
+  <div id="legend"></div>
+</body>
+
+</html>
